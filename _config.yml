@@ -1,0 +1,5 @@
+# GitHub Pages Configuration
+site:
+  title: My GitHub Pages Site
+  description: A site for showcasing my projects.
+theme: jekyll-theme-minimal

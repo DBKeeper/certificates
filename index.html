@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .certificate {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .certificate:hover {
+            transform: scale(1.05);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .title {
+            font-size: 1.2em;
+            margin-top: 10px;
+            color: #0078D4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Certificate Gallery</h1>
+    <div class="gallery">
+        <div class="certificate">
+            <img src="azure_certificate.png" alt="Microsoft Azure Certificate">
+            <div class="title">Microsoft Azure</div>
+        </div>
+        <div class="certificate">
+            <img src="python_advanced_certificate.png" alt="Python Advanced Certificate">
+            <div class="title">Python Advanced</div>
+        </div>
+        <div class="certificate">
+            <img src="web_development_certificate.png" alt="Web Development Certificate">
+            <div class="title">Web Development</div>
+        </div>
+    </div>
+</body>
+</html>
